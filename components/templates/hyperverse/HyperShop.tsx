@@ -58,9 +58,11 @@ const { contract } = useContract(ENERGY_ADDRESS);
           
               <div className='w-60 flex items-center justify-center m-auto pb-12'>
               
-        <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
-        Maintenance
-      </button>
+              <ConnectWallet 
+       btnTitle='Login'
+       className={styles.connectButton}
+       />
+
   
               
               
@@ -84,7 +86,7 @@ const { contract } = useContract(ENERGY_ADDRESS);
   
         
         return (
-  <div className="w-full justify-center mx-auto pt-24 px-8">
+  <div className="w-full justify-center mx-auto pt-24 px-8 ">
     <h1 className="text-yellow-100 text-2xl font-semibold font-Jost text-center">To access the HYPERVERSE Shop you need to own an Akasha Alien!</h1>
     <p className="text-white text-lg font-Jost text-center py-4 ">You currently do not own an Akasha Alien. Head to the Advent Calendar page, claim an alien and receive an Akasha alien airdrop to access the shop.</p>
   <div className=" items-center justify-center m-auto py-4">
@@ -100,9 +102,9 @@ const { contract } = useContract(ENERGY_ADDRESS);
                 
   
                 <div className="flex items-center justify-center p-8">
-              <Link href="/hyperverse">
-             <button className="bg-blue-800 hover:bg-blue-700 text-yellow-200  py-4 px-6 rounded-2xl">
-    Get an Akasha NFT to log in
+              <Link href="/nftmint">
+             <button className="bg-blue-800 hover:bg-blue-700 text-white  py-4 px-6 rounded-2xl">
+    Get an Akasha NFT to play
   </button>
   </Link>
   </div>
@@ -154,11 +156,11 @@ const { contract } = useContract(ENERGY_ADDRESS);
         </div>
 
             {!nfts ? (
-                <div className="flex justify-center mx-auto p-24">
+                <div className="flex justify-center mx-auto p-24 ">
                     
                 </div>
             ) : (
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
                     {nfts?.map((nftItem) => (
                         <EnergyItems 
                             key={nftItem.metadata.id}
@@ -172,32 +174,9 @@ const { contract } = useContract(ENERGY_ADDRESS);
 
 
 
-<div className="bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl w-3/4 flex justify-center m-auto shadow-lg p-8 mb-12">
-<div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6'>
-
-<div className="">
-<h1 className='text-left text-yellow-100 font-Proza text-xl'>Play the HYPERSLEEP Game</h1>
-<p className='text-white text-base font-Proza py-4'>Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards.</p>
-<p className='text-blue-200 text-md font-Proza py-4'>Coming on December 31, 2023...</p>
-</div>
 
 
 
-<div className="w-80 h-80 justify-end flex m-auto">
-
-<Image
-      className=" rounded-3xl shadow-md"
-      src="/assets/hypersleep.jpg"
-      alt="Akasha Staff"
-      width={800}
-      height={800}
-    />
-
-</div>
-</div>
-
-
-</div>
 
 
 

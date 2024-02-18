@@ -6,7 +6,8 @@ import { Intro } from '../intro';
 import Image from 'next/image'
 import Link from 'next/link'
 import { Credits } from '../credits';
-
+import ReactPlayer from 'react-player'
+import styles from '/styles/Home.module.css'
 
   
   const Home = () => {
@@ -16,8 +17,16 @@ import { Credits } from '../credits';
 
    <div>  
 
-   <FrontSlider/>
+ 
 
+   <div className='player-wrapper '>
+        <ReactPlayer
+          className='react-player'
+          url='https://youtu.be/XZfaLDZF5co'
+          width='100%'
+          height='100%'
+        />
+      </div>
 
    <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl pt-8">
 
@@ -26,7 +35,7 @@ import { Credits } from '../credits';
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
               src="/assets/akasha_promo03.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 03r"
               width={1000}
               height={1000}
             />
@@ -38,7 +47,7 @@ import { Credits } from '../credits';
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
               src="/assets/akasha_promo04.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 04"
               width={1000}
               height={1000}
             />
@@ -51,7 +60,7 @@ import { Credits } from '../credits';
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
               src="/assets/akasha_promo01.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 01"
               width={1000}
               height={1000}
             />

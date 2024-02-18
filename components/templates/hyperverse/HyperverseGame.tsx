@@ -159,7 +159,7 @@ const HyperverseGame = () => {
 
 
             <div className="p-10 bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl">
-              <h1 className="text-2xl text-yellow-100 font-Proza">Cosmic Energy Inventory</h1>
+              <h1 className="text-2xl text-yellow-100 font-Proza mb-2">Cosmic Energy Inventory</h1>
                 <HyperInventory
                   nft={ownedEnergy}
                 /> </div>

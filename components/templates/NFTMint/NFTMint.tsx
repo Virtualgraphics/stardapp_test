@@ -59,14 +59,69 @@ const NFTMint = () => {
 
 <div>
 <h1 className='text-yellow-100 text-center font-Proza text-lg'>Cool utilities for your Akasha alien:</h1>
-<p className='text-white text-center font-Proza text-md py-2'>1. Play Hyperverse Game and get HYPER token rewards.</p>
+<p className='text-white text-center font-Proza text-md py-2'>1. Collect the unique Akasha Aliens.</p>
 <p className='text-white text-center font-Proza text-md py-2'>2. Play Hypersleep Game and get HYPER token rewards.</p>
 <p className='text-white text-center font-Proza text-md py-2'>3. Get STARDUST airdrops for your HYPER token balance.</p>
-<p className='text-white text-center font-Proza text-md py-2'>4. Use your Akasha alien in the upcoming Stargazer RPG to get assets.</p>
+<p className='text-white text-center font-Proza text-md py-2'>4. Use your Akasha alien in the upcoming Stargazer RPG, Anime and Webtoon.</p>
 
 </div>
 
 </div>
+
+<div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl py-8 px-8 my-8 rounded-3xl">
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto  rounded-3xl"
+              src="/assets/akasha_promo03.png"
+              alt="Akasha Promo 03r"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto  rounded-3xl"
+              src="/assets/akasha_promo04.png"
+              alt="Akasha Promo 04"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto  rounded-3xl"
+              src="/assets/akasha_promo01.png"
+              alt="Akasha Promo 01"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto rounded-3xl"
+              src="/assets/akasha_promo02.png"
+              alt="Advent Banner"
+              width={1000}
+              height={1000}
+            />
+
+</div></div>
+
+
+
 
 <div className="text-yellow-100 text-2xl tracking-widest font-Proza text-center font-semibold">SKY GODZ Founder Edition coming soon...</div>
 

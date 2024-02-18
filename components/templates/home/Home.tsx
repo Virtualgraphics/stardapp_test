@@ -1,6 +1,6 @@
 
 import * as React from 'react'
-import FrontSlider from '../frontslider/frontlsider';
+
 import { Hero } from '../hero';
 import { Intro } from '../intro';
 import Image from 'next/image'
@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { Credits } from '../credits';
 import ReactPlayer from 'react-player'
 import styles from '/styles/Home.module.css'
+import FrontSlider from '../frontslider/frontlsider';
 
   
   const Home = () => {
@@ -17,16 +18,9 @@ import styles from '/styles/Home.module.css'
 
    <div>  
 
- 
+<FrontSlider/>
 
-   <div className='player-wrapper '>
-        <ReactPlayer
-          className='react-player'
-          url='https://youtu.be/XZfaLDZF5co'
-          width='100%'
-          height='100%'
-        />
-      </div>
+
 
    <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl pt-8">
 

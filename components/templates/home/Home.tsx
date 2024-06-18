@@ -9,6 +9,7 @@ import { Credits } from '../credits';
 import ReactPlayer from 'react-player'
 import styles from '/styles/Home.module.css'
 import FrontSlider from '../frontslider/frontlsider';
+import { Container } from 'postcss';
 
   
   const Home = () => {
@@ -16,85 +17,161 @@ import FrontSlider from '../frontslider/frontlsider';
 
    
 
-   <div>  
+   <div className=''>  
 
 <FrontSlider/>
 
 
 
-   <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl pt-8">
 
-<div>
 
-<Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/akasha_promo03.png"
-              alt="Akasha Promo 03r"
-              width={1000}
-              height={1000}
-            />
 
-</div>
-
-<div>
-
-<Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/akasha_promo04.png"
-              alt="Akasha Promo 04"
-              width={1000}
-              height={1000}
-            />
-
+    <div className=''>
+<h1 className='text-center text-4xl text-semibold font-Cinzel text-yellow-100 mt-8'>Play Games and earn, collect, trade tokens and NFTs!</h1>
 </div>
 
 
-<div>
 
+
+
+
+  <div className="flex justify-center m-auto">
+   <div className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-12 justify-center m-12 max-w-screen-xl">
+
+
+<div>
+<div className="filter hover:grayscale hover:contrast-100">
 <Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/akasha_promo01.png"
-              alt="Akasha Promo 01"
+              className="flex items-center justify-center mx-auto mt-4 rounded-3xl"
+              src="/assets/game_image_square.jpg"
+              alt="Games"
               width={1000}
               height={1000}
-            />
+            /></div>
 
+            <div className='text-yellow-100 font-Proza text-xl text-center mt-4'>SKY GODZ TALES GAMES</div>
+            <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
+            <div className=" flex items-center justify-center">
+            <Link href="/games">
+            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+  Play now
+</button></Link></div>
 </div>
 
 
-<div>
 
+
+<div>
+<div className="filter hover:grayscale hover:contrast-100">
 <Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              className="flex items-center justify-center mx-auto mt-4 rounded-3xl"
+              src="/assets/crystal_collection_image.jpg"
+              alt="Defi Games"
+              width={1000}
+              height={1000}
+            /></div>
+
+<div className='text-yellow-100 font-Proza text-xl text-center mt-4'>SKY GODZ TALES DEFI GAMES</div>
+            <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
+            <div className=" flex items-center justify-center">
+            <Link href="/games">
+            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+  Play now
+</button></Link></div>
+</div>
+
+
+
+<div>
+<div className="filter hover:grayscale hover:contrast-100">
+<Image
+              className="flex items-center justify-center mx-auto mt-4 rounded-3xl"
+              src="/assets/founder_whitelionNEW.jpg"
+              alt="NFT"
+              width={1000}
+              height={1000}
+            /></div>
+
+<div className='text-yellow-100 font-Proza text-xl text-center mt-4'>FOUNDERS EDITION</div>
+            <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
+            <div className=" flex items-center justify-center">
+            <Link href="/games">
+            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+  Mint now
+</button></Link></div>
+</div>
+
+
+
+
+<div>
+<div className="filter hover:grayscale hover:contrast-100">
+<Image
+              className="flex items-center justify-center mx-auto mt-4 rounded-3xl"
               src="/assets/akasha_promo02.png"
-              alt="Advent Banner"
+              alt="Webtoon"
               width={1000}
               height={1000}
-            />
+            /></div>
 
-</div></div>
+<div className='text-yellow-100 font-Proza text-xl text-center mt-4'>SKY GODZ TALES WEBTOONS</div>
+            <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
+            <div className=" flex items-center justify-center">
+            <Link href="/games">
+            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+  Read now
+</button></Link></div></div>
 
-<div className="  w-3/4 justify-center m-auto pt-12 px-20">
-<h1 className="text-center text-blue-100 text-2xl font-Proza">
-Blast off into the Hyperverse with the SKY GODZ: HYPERVERSE game and collect HYPER token rewards as you travel the dimensions.
-</h1>
+</div>
+
+
+
+</div>
 
 
 
 
 
-<div className=" flex items-center justify-center py-8">
+
+<div className="  w-1/2 justify-center m-auto p-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20  rounded-3xl border-1 shadow-2xl">
+
+<div className="grid grid-cols-2 gap-4">
+
+
+<div className="">
+<Image
+              className=" rounded-3xl w-80 "
+              src="/assets/stardust.gif"
+              alt="Stardust"
+              width={500}
+              height={500}
+            /></div>
+
+<div>
+<h1 className='text-yellow-100 text-xl font-Proza mb-4'>STARDUST TOKEN</h1>
+
+<p className='text-white tex-md font-Proza'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos. He has to collect the crystals while fighting off deadly scorpions and face the ultimate boss battle before entering the Stargate to safety.</p>
+
+<div className=" py-8">
             <Link href="/hyperverse">
             <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
   PLAY NOW
 </button></Link></div>
 
+
 </div>
 
 
 
 
-   <Hero />
+</div>
+
+
+
+</div>
+
+
+
 
 
 

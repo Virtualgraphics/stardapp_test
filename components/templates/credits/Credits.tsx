@@ -12,7 +12,7 @@ const Credits = () => {
       </div>
       
       
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-3 gap-2 mt-4">
         
 
       <div className="m-auto w-14">

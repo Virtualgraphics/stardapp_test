@@ -22,7 +22,7 @@ import {WEBTOON_ADDRESS} from "../../../constants/addresses";
 
 import { BigNumber, ethers } from "ethers";
 import Spinner from '../../layouts/Spinner';
-const myNftDropContractAddress = "0x05746530dBc6b680b9cfD3933A4f827e0960688F";
+const myNftDropContractAddress = "0x8F2085CcC5c4196b2E63666BB14E21B2935f513F";
 import React from "react";
 import { useState } from "react";
 
@@ -47,12 +47,12 @@ const claimConditions = useClaimConditions(nftDrop);
     return (
       <div className="container-lg py-32 ">
         <div className="flex-col h-full mx-auto my-auto justify-center">
-          <h1 className='text-3xl text-yellow-100 pt-16 text-center font-Metamorphous'>WELCOME TO IMMORTAL COIL WEBTOONS</h1>
-          <p className='text-xl text-white pt-4 text-center font-Jost'>To read the Immortal Coil Webtoon, connect your wallet and mint a Webtoon Episode 1 NFT.</p>
+          <h1 className='text-2xl text-yellow-100 pt-16 text-center font-Cinzel tracking-wide font-semibold'>WELCOME TO THE SKY GODZ TALES WEBTOONS</h1>
+          <p className='text-lg text-white pt-4 text-center font-Jost'>To read the SKY GODZ TALES Webtoon, connect your wallet and mint a Webtoon Episode 1 NFT.</p>
           <div className="m-auto w-96 py-8">
             <Image
-            className="m-auto py-12 mask mask-hexagon"
-            src="/assets/webtoon_placeholder.jpg"
+            className="m-auto py-12 rounded-full"
+            src="/assets/webtoon_image_square.jpg"
             alt="Webtoon Episode 1"
             width={1000}
             height={1000}
@@ -85,7 +85,7 @@ const claimConditions = useClaimConditions(nftDrop);
       
 <div className="w-full justify-center mx-auto pt-8">
 
-<p className="text-white text-md font-Jost text-center py-4">You currently do not own Immortal Coil Webtoon Episode 1. Mint the first epsiode of the Webtoon below to read it.</p>
+<p className="text-white text-md font-Jost text-center py-4">You currently do not own SKY GODZ TALES Webtoon Episode 1. Mint the first epsiode of the Webtoon below to read it.</p>
 
 
 <div className="flex justify-center m-auto ">
@@ -97,13 +97,13 @@ const claimConditions = useClaimConditions(nftDrop);
 
 <Image
           className=" pb-6  w-96 rounded-2xl " 
-          src="/assets/webtoon_ep01.jpg"
+          src="/assets/webtoon_cover_ep01.jpg"
           alt="Webtoon EP01"
           width={1500}
           height={1060}
         />
 
-<h1 className="text-yellow-100  text-lg font-Jost mb-2 text-center">Cost: 500 BLOOD</h1>
+<h1 className="text-yellow-100  text-lg font-Jost mb-2 text-center">Cost: 2500 STAR</h1>
 <h1 className="text-white  text-sm font-Jost mb-8 text-center">You can claim max. 3 NFTs per wallet</h1>
 
 
@@ -137,7 +137,7 @@ const claimConditions = useClaimConditions(nftDrop);
         </div>
 
         <div className="bg-black/30 rounded-3xl w-96 drop-shadow-3xl mt-8 pt-10 px-12 ">
-<h1 className='text-yellow-200 font-Metamorphous font-lg mb-8'>SKY GODZ TALES WEBTOONS</h1>
+<h1 className='text-yellow-200 font-Cinzel font-lg mb-8'>SKY GODZ TALES WEBTOONS</h1>
 
 <p className='text-yellow-200 font-base mb-8'>The town of Moorholm is being haunted by vampires fighting for supremacy of the dark realm of Therondia, none more powerful than the immortal vampire Kai. </p>
 <p className='text-white font-base mb-8'>Mint the cover of the first of the Webtoon with Blood tokens and get instant access to the first episode. </p>
@@ -206,7 +206,7 @@ const claimConditions = useClaimConditions(nftDrop);
 </div>
 <div className="justify-center m-auto flex max-w-3xl py-2">
           
-          <h1 className=' text-white text-lg font-Jost mb-12 text-center'>Stay tuned for upcoming episodes of the IMMORTAL COIL Webtoon... </h1>
+          <h1 className=' text-white text-lg font-Jost mb-12 text-center'>Stay tuned for upcoming episodes of the SKY GODZ TALES Webtoon... </h1>
         
         </div>
 
@@ -253,8 +253,8 @@ const claimConditions = useClaimConditions(nftDrop);
 
       
 
-          <h2 className="m-auto mb-4 text-3xl tracking-wide text-yellow-100 sm:text-4xl sm:leading-none sm:m-auto font-Metamorphous py-5">
-          IMMORTAL COIL WEBTOONS
+          <h2 className="m-auto mb-4 text-3xl tracking-wide text-yellow-100 sm:text-4xl sm:leading-none sm:m-auto font-Cinzel font-semibold  py-5">
+      SKY GODZ TALES WEBTOONS
           </h2>
           <hr className="w-4/6 mx-auto my-4 border-yellow-200" />
           <p className="text-base text-white lg:text-lg  md:text-lg sm:px-4 py-2 font-Jost">
@@ -269,14 +269,14 @@ const claimConditions = useClaimConditions(nftDrop);
 
 
 <div className='w-full py-8'>
-<p className="text-center text-base text-yellow-100 lg:text-xl  md:text-lg sm:px-4 py-2 font-Jost">Check out upcoming episodes of the IMMORTAL COIL webtoon. 
+<p className="text-center text-base text-yellow-100 lg:text-xl  md:text-lg sm:px-4 py-2 font-Jost">Check out upcoming episodes of the SKY GODZ TALES webtoon. 
           </p>
 </div>
 
 <div className='m-auto justify-center'>
 <div className="grid grid-cols-3 gap-8 ">
 
-  <div className='bg-red-950/50 rounded-2xl py-8 px-8'>
+  <div className='bg-blue-950/50 rounded-2xl py-8 px-8'>
 
   <div className="m-auto pb-4 w-full ">
           <Image
@@ -299,7 +299,7 @@ const claimConditions = useClaimConditions(nftDrop);
 
 </div>
 
- <div className='bg-red-950/50 rounded-2xl py-8 px-8'>
+ <div className='bg-blue-950/50 rounded-2xl py-8 px-8'>
 
  <div className="m-auto pb-4 w-full ">
           <Image
@@ -322,7 +322,7 @@ const claimConditions = useClaimConditions(nftDrop);
 
  </div>
 
-<div className='bg-red-950/50 rounded-2xl py-8 px-8'>
+<div className='bg-blue-950/50 rounded-2xl py-8 px-8'>
 
 <div className="m-auto pb-4 w-full ">
           <Image

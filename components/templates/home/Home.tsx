@@ -27,7 +27,7 @@ import { Container } from 'postcss';
 
 
     <div className=''>
-<h1 className='text-center text-4xl text-semibold font-Cinzel text-yellow-100 mt-8 tracking-wider font-semibold'>Play Games and earn, collect, trade tokens and NFTs!</h1>
+<h1 className='text-center text-4xl text-semibold font-Cinzel text-yellow-100 mt-8 tracking-wider font-semibold'>Play Games, earn, collect and trade Tokens and NFTs!</h1>
 </div>
 
 
@@ -49,7 +49,7 @@ import { Container } from 'postcss';
               height={1000}
             /></div>
 
-            <div className='text-yellow-100 font-Proza text-xl text-center mt-4 '>SKY GODZ TALES VIDEO GAMES</div>
+            <div className='text-yellow-100 font-Cinzel text-xl text-center mt-4 tracking-wider font-semibold'>SKY GODZ TALES VIDEO GAMES</div>
             <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
             <div className=" flex items-center justify-center">
             <Link href="/games">
@@ -71,7 +71,7 @@ import { Container } from 'postcss';
               height={1000}
             /></div>
 
-<div className='text-yellow-100 font-Proza text-xl text-center mt-4'>SKY GODZ TALES DEFI GAMES</div>
+<div className='text-yellow-100 font-Cinzel text-xl text-center mt-4 tracking-wider font-semibold'>SKY GODZ TALES DEFI GAMES</div>
             <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
             <div className=" flex items-center justify-center">
             <Link href="/games">
@@ -92,7 +92,7 @@ import { Container } from 'postcss';
               height={1000}
             /></div>
 
-<div className='text-yellow-100 font-Proza text-xl text-center mt-4'>FOUNDERS EDITION</div>
+<div className='text-yellow-100 font-Cinzel text-xl text-center mt-4 tracking-wider font-semibold'>FOUNDERS EDITION</div>
             <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
             <div className=" flex items-center justify-center">
             <Link href="/games">
@@ -114,7 +114,7 @@ import { Container } from 'postcss';
               height={1000}
             /></div>
 
-<div className='text-yellow-100 font-Proza text-xl text-center mt-4'>SKY GODZ TALES WEBTOONS</div>
+<div className='text-yellow-100 font-Cinzel text-xl text-center mt-4 tracking-wider font-semibold'>SKY GODZ TALES WEBTOONS</div>
             <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
             <div className=" flex items-center justify-center">
             <Link href="/games">

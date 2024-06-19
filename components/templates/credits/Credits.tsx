@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Credits = () => {
  
     return (
-      <div className="justify-center px-4  mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:w-1/2 md:px-24 lg:px-8 pb-12 pt-8">
+      <div className="justify-center px-4  mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-sm md:px-24 lg:px-8 pb-12 pt-8">
       <div>
 <h1 className="text-white text-center font-Proza  pb-6">The STARDAPP is proudly powered by:</h1>
 

@@ -27,7 +27,7 @@ import { Container } from 'postcss';
 
 
     <div className=''>
-<h1 className='text-center text-4xl text-semibold font-Cinzel text-yellow-100 mt-8'>Play Games and earn, collect, trade tokens and NFTs!</h1>
+<h1 className='text-center text-4xl text-semibold font-Cinzel text-yellow-100 mt-8 tracking-wider font-semibold'>Play Games and earn, collect, trade tokens and NFTs!</h1>
 </div>
 
 
@@ -43,13 +43,13 @@ import { Container } from 'postcss';
 <div className="filter hover:grayscale hover:contrast-100">
 <Image
               className="flex items-center justify-center mx-auto mt-4 rounded-3xl"
-              src="/assets/game_image_square.jpg"
+              src="/assets/game_image_square02.jpg"
               alt="Games"
               width={1000}
               height={1000}
             /></div>
 
-            <div className='text-yellow-100 font-Proza text-xl text-center mt-4'>SKY GODZ TALES GAMES</div>
+            <div className='text-yellow-100 font-Proza text-xl text-center mt-4 '>SKY GODZ TALES VIDEO GAMES</div>
             <div className='text-white font-Proza text-md text-center mt-2 w-3/4 flex justfy-center m-auto'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos.</div>
             <div className=" flex items-center justify-center">
             <Link href="/games">
@@ -108,7 +108,7 @@ import { Container } from 'postcss';
 <div className="filter hover:grayscale hover:contrast-100">
 <Image
               className="flex items-center justify-center mx-auto mt-4 rounded-3xl"
-              src="/assets/akasha_promo02.png"
+              src="/assets/webtoon_image_square.jpg"
               alt="Webtoon"
               width={1000}
               height={1000}
@@ -133,51 +133,39 @@ import { Container } from 'postcss';
 
 
 
-<div className="  w-1/2 justify-center m-auto p-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20  rounded-3xl border-1 shadow-2xl">
+<div className="  max-w-screen-lg justify-center m-auto p-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20  rounded-3xl border-1 shadow-2xl">
 
 <div className="grid grid-cols-2 gap-4">
 
 
 <div className="">
 <Image
-              className=" rounded-3xl w-80 "
+              className=" rounded-3xl w-96 "
               src="/assets/stardust.gif"
               alt="Stardust"
               width={500}
               height={500}
             /></div>
 
-<div>
-<h1 className='text-yellow-100 text-xl font-Proza mb-4'>STARDUST TOKEN</h1>
+<div className='self-start'>
+<h1 className='text-yellow-100 text-2xl font-Cinzel mb-4 tracking-wider font-semibold'>STARDUST TOKEN</h1>
 
-<p className='text-white tex-md font-Proza'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos. He has to collect the crystals while fighting off deadly scorpions and face the ultimate boss battle before entering the Stargate to safety.</p>
+<p className='text-white text-lg font-Proza'>TThe STARDUST Token is the in-game and reward token for all activities in the Stardapp as well as the entire SKY GODZ universe. Earn STAR by playing games, watching anime, reading webtoons and trading NFTs..</p>
 
 <div className=" py-8">
             <Link href="/hyperverse">
             <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
-  PLAY NOW
+  Fairlaunch on Pinksale
 </button></Link></div>
 
 
 </div>
 
 
-
+</div>
 
 </div>
 
-
-
-</div>
-
-
-
-
-
-
-   <Intro />
-
-   <hr className="w-2/4  border-yellow-200 justify-center m-auto flex " />
 
    <Credits/>
 

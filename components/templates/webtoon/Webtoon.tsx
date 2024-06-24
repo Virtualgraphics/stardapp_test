@@ -22,7 +22,7 @@ import {WEBTOON_ADDRESS} from "../../../constants/addresses";
 
 import { BigNumber, ethers } from "ethers";
 import Spinner from '../../layouts/Spinner';
-const myNftDropContractAddress = "0x8F2085CcC5c4196b2E63666BB14E21B2935f513F";
+const myNftDropContractAddress = "0x2D949b6e70B243fDaaD3FD7a019FB65A2A8eDdDb";
 import React from "react";
 import { useState } from "react";
 
@@ -97,7 +97,7 @@ const claimConditions = useClaimConditions(nftDrop);
 
 <Image
           className=" pb-6  w-96 rounded-2xl " 
-          src="/assets/webtoon_cover_ep01.jpg"
+          src="/assets/webtoon_cover01.jpg"
           alt="Webtoon EP01"
           width={1500}
           height={1060}
@@ -287,7 +287,7 @@ const claimConditions = useClaimConditions(nftDrop);
           height={480}
         />
     </div>
-    <h1 className='text-yellow-100 font-Jost text-lg text-left pb-4'>EPISODE 2: Baptised by Blood</h1>
+    <h1 className='text-yellow-100 font-Jost text-lg text-left pb-4'>EPISODE 2: The Orion Empire</h1>
     <p className='text-white text-left font-Jost '> Kai gets initiated into the coven at Frosthaven and becomes the most powerfull vampire in Therondia. </p>
  
 
@@ -310,7 +310,7 @@ const claimConditions = useClaimConditions(nftDrop);
           height={480}
         />
     </div>
-    <h1 className='text-yellow-100 font-Jost text-lg text-left pb-4 tracking-tighter'>EPISODE 3: Sword of Skjallgrim</h1>
+    <h1 className='text-yellow-100 font-Jost text-lg text-left pb-4 tracking-tighter'>EPISODE 3: Journey to Ashada</h1>
     <p className='text-white text-left font-Jost '> With the help from an old female Vampire called Iona, Kai retrieves the powerful Skjallgrim sword from the lake of tears. </p>
  
 
@@ -333,7 +333,7 @@ const claimConditions = useClaimConditions(nftDrop);
           height={480}
         />
     </div>
-    <h1 className='text-yellow-100 font-Jost text-lg text-left pb-4'>EPISODE 4: Raising Hell</h1>
+    <h1 className='text-yellow-100 font-Jost text-lg text-left pb-4'>EPISODE 4: A new dawn</h1>
     <p className='text-white text-left font-Jost '> In possession of a weapon powerful enough to defeat Necrocorvo, they head through the Rabenwald and the pits of hell.</p>
  
 

@@ -7,16 +7,7 @@ const Games = () => {
     return (
       <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
      
-     <div className="max-w-screen-md sm:text-center sm:mx-auto">
-            
   
-        
-            <h2 className="m-auto mb-4 text-lg  text-yellow-100 sm:text-4xl sm:leading-none sm:m-auto font-Cinzel py-4 font-semibold tracking-wide">
-          SKY GODZ TALES - Video Games
-            </h2>
-           
-           
-          </div>
 
           <div className="w-10/12 justify-center m-auto flex mb-4 ">
    <div className="m-auto py-2 ">
@@ -35,7 +26,7 @@ const Games = () => {
 <div className="w-10/12  justify-center flex m-auto mb-4 ">
 
 <div className="w-10/12">
-<h1 className='text-yellow-100 text-3xl text-center mt-4 font-Cinzel font-semibold tracking-wide'>The Lion Warriors of Aveyon - Adventure Game</h1>
+<h1 className='text-yellow-100 text-3xl text-center mt-4 font-Proza font-semibold tracking-wide'>The Lion Warriors of Aveyon - Adventure Game</h1>
 <p className='text-white text-lg text-center my-4'>The young Lion Warrior Yoris has been chosen to defend the powerful desert crystals from the attacking Dracos. He has to collect the crystals while fighting off deadly scorpions and face the ultimate boss battle before entering the Stargate to safety.</p>
 </div>
 

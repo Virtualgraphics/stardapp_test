@@ -42,15 +42,15 @@ const DesertCrystalGame = () => {
 
 
           <div className="flex-col h-full mx-auto my-auto justify-center">
-            <h1 className='text-3xl text-yellow-100 pt-16 text-center font-semibold font-Proza'>WELCOME TO THE DESERT CRYSTALS OF AVEYON GAME</h1>
+            <h1 className='text-3xl text-yellow-100 pt-16 text-center  font-Proza'>WELCOME TO THE DESERT CRYSTALS OF AVEYON GAME</h1>
             <p className='text-lg text-white pt-4 text-center font-Jost'>To participate in the Desert Crystals game, connect your wallet and claim a Founders NFT.</p>
             <div className="m-auto w-96 py-12">
               <Image
               className="m-auto rounded-full"
-              src="/assets/boosted_alien.jpg"
-              alt="Akasha Collection"
-              width={800}
-              height={800}
+              src="/assets/crystal_collection_image.jpg"
+              alt="Crystal Collection"
+              width={1000}
+              height={1000}
             />
               </div>
         

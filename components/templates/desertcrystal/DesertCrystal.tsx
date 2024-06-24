@@ -130,11 +130,11 @@ const DesertCrystal = () => {
 
 
 
-          <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+          <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center ">
             <div className="relative">
             <Image
               className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="/assets/hyper_shop.jpg"
+              src="/assets/crystal_shop.jpg"
               alt="Shop"
               width={1260}
               height={750}
@@ -156,20 +156,13 @@ const DesertCrystal = () => {
             </div>
           </div>
 
-
-          
-        
-
-
-
           </div>
-
-
-
+</div>
 </div>
 
 
-</div>
+
+
 
 
 
@@ -184,9 +177,9 @@ const DesertCrystal = () => {
 
              <h1 className='text-yellow-100 text-lg font-Proza py-4'>Desert Crystals of Aveyon Contract Addresses:</h1>
 
-<p className='text-white text-sm font-Proza py-2'> Founder NFT: 0x8F2085CcC5c4196b2E63666BB14E21B2935f513F</p>
-<p className='text-white text-sm font-Proza py-2'> Desert Crystals: 0xB2dba0C31fc087224652619a47EC64D7267b42aE</p>
-<p className='text-white text-sm font-Proza py-2'> STARDUST Token: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74</p>
+<p className='text-white text-sm font-Proza '> Founder NFT: TBA</p>
+<p className='text-white text-sm font-Proza mt-4'> Desert Crystals: 0xB2dba0C31fc087224652619a47EC64D7267b42aE</p>
+<p className='text-white text-sm font-Proza mt-4'> STARDUST Token: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74</p>
 
 </div>
 

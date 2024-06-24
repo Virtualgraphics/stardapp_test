@@ -150,7 +150,7 @@ import { Container } from 'postcss';
 <div className='self-start'>
 <h1 className='text-yellow-100 text-2xl font-Cinzel mb-4 tracking-wider font-semibold'>STARDUST TOKEN</h1>
 
-<p className='text-white text-lg font-Proza'>TThe STARDUST Token is the in-game and reward token for all activities in the Stardapp as well as the entire SKY GODZ universe. Earn STAR by playing games, watching anime, reading webtoons and trading NFTs..</p>
+<p className='text-white text-lg font-Proza'>The STARDUST Token is the in-game and reward token for all activities in the Stardapp as well as the entire SKY GODZ universe. Earn STAR by playing games, watching anime, reading webtoons and trading NFTs..</p>
 
 <div className=" py-8">
             <Link href="/hyperverse">
